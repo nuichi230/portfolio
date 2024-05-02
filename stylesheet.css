@@ -1,0 +1,123 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Cormorant Garamond";
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+li, a {
+   list-style: none;
+   text-decoration: none;
+}
+
+.wrapper {
+   width: 100%;
+   height: 100vh;
+   background: #e7e7e7;
+}
+
+.menu-btn {
+   position: fixed;
+   top: 0;
+   right: 0;
+   font-size: 2.2em;
+   padding: 0.5em;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.menu-container {
+   position: fixed;
+   width: 25%;
+   height: 100vh;
+   border-right: 1px solid #000;
+}
+
+ul {
+   margin-left: 1.2em;
+}
+
+.items-section {
+   height: 40%;
+   border-bottom: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+
+.items-section ul > li a {
+   line-height: 1.1em;
+   transition: all 0.3s;
+   font-size: 3.8em;
+   font-weight: lighter;
+   text-transform: uppercase;
+   color: #000;
+}
+
+.items-section ul > li a:hover {
+   margin-left: 0.75em;
+}
+
+.project-section {
+   height: 35%;
+   border-bottom: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+
+.project-section h1 {
+   font-size: 3.8em;
+   font-weight: lighter;
+   text-transform: uppercase;
+}
+
+.project-section ul > li {
+   margin-left: 1em;
+   font-family: "Made Canvas";
+   font-size: 1.65em;
+   font-weight: lighter;
+   cursor: pointer;
+}
+
+.project-section ul > li span:hover {
+   font-style: italic;
+}
+
+.mail-section {
+   height: 15%;
+   border-bottom: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+
+.txt {
+   margin-left: 1.2em;
+   cursor: pointer;
+}
+
+.txt p {
+   font-size: 2em;
+}
+
+.mail-section .txt p:hover {
+   font-style: italic;
+}
+
+.social-section {
+   height: 10%;
+   display: flex;
+   align-items: center;
+}
+
+.social-section .txt p {
+   font-size: 1.8em;
+}
+
+.social-section .txt p span:hover {
+   font-style: italic;
+}
